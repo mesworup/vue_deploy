@@ -6,6 +6,14 @@ based on original `vue-ssr-starter-kit` project by @doabit, which is in turn bas
 
 [![Build Status](https://travis-ci.org/doabit/vue-ssr-starter-kit.svg?branch=master)](https://travis-ci.org/doabit/vue-ssr-starter-kit)
 
+
+To run the app:
+1. Build and Run:
+    ``` bash
+    docker build -t vue-ssr-app .
+    docker run -it -p 8080:3000 --name my-vue-ssr-debug vue-ssr-app
+    ```
+
 ## Build Setup
 
 Requires Node.js v6+
